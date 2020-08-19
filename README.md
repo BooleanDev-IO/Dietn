@@ -1,14 +1,20 @@
-##Introduction
+<h1>Dietn</h1>
+<h2>Introduction</h2>
 
 Dietn is an Android Applicaiton with a mordern User interface and easy statistical graphs and views.
 It all made in java with the help of some libraries from github thanks to them i got so close to finalizing my final year project.
 
-##Screenshots
-https://user-images.githubusercontent.com/37891898/90626414-91c6eb00-e238-11ea-895a-5937de28c558.jpg
-https://user-images.githubusercontent.com/37891898/90626715-f124fb00-e238-11ea-8504-ce81d3ab04b1.jpg
-https://user-images.githubusercontent.com/37891898/90626806-0437cb00-e239-11ea-993f-6fd5e8d5440e.jpg
+<h2>Screenshots</h2>
 
-##Libraries used:
+![alt text](https://user-images.githubusercontent.com/37891898/90628487-51b53780-e23b-11ea-8f97-c7a6091b69f5.jpg)
+![alt text](https://user-images.githubusercontent.com/37891898/90628418-334f3c00-e23b-11ea-80c9-75559bd5bbae.jpg)
+![alt text](https://user-images.githubusercontent.com/37891898/90628451-42ce8500-e23b-11ea-97c0-f0454b17549e.jpg)
+![alt text](https://user-images.githubusercontent.com/37891898/90628559-73aeba00-e23b-11ea-8352-4ff2e9d6530a.jpg)
+![alt text](https://user-images.githubusercontent.com/37891898/90628586-7f9a7c00-e23b-11ea-841f-ae2e8f8c8877.jpg)
+![alt text](https://user-images.githubusercontent.com/37891898/90628618-8cb76b00-e23b-11ea-81f5-a963c2c116ca.jpg)
+
+<h2>Libraries used</h2>
+
   - nightonke:jellytogglebutton
   - Lottieanimations
   - mikhaellopez:circularprogressbar
