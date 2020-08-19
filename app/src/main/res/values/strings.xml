@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Dietn</string>
+    <string name="red">Red</string>
+    <string name="blue">Blue</string>
+    <string name="green">Green</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+      <string name="body_weight">Body Weight</string>
+    <string name="bmi">BMI</string>
+    <string name="todo">TODO</string>
+    <string name="large_text">
+"ABOUT US"
+    </string>
+    <string name="extraL_text">\tWell, It all started few months back when I decided that we would share our knowledge to help others live a happy and healthy life.\n
+        \n      \tWelcome to Dietn, a organistaion providing diet discussion for men, women, adults. In Dietn we help you to choose your correct food choices and a correct food choice will affect your health each day — how you feel today, tomorrow, and in the future.\n
+        \n\tGood nutrition means your body gets all the nutrients, vitamins, and minerals it needs to work its best.
+        \n\n\tPlan your meals and snacks to include nutrient-dense foods that are also low in calories.
+        \n\n\tGood nutrition is an important part of leading a healthy lifestyle. Combined with physical activity, your diet can help you to reach and maintain a healthy weight, reduce your risk of chronic diseases (like heart disease and cancer), and promote your overall health.
+        \n\n\tA person eats to gain energy from food that allows our body to perform various functions that allows us to survive.
+        \n\n\tThe food that people take in will go throughtheir digestive system that then allows them to harness the energy within food. A healthy and nutritious diet comprises a combination of different foods and Dietn helps you with your diet so that you can get all the nutritions.
+        \n\n\tThe goal of the Dietn is to help other to accomplish their Lose and Reduce fat goal, Build and Gain muscle goal, Maintain and Improve their current weight,health and performance goal
+    </string>
+    <string name="norm_text">The diet plans are all taken and written by the professional dietitians, for any other issues you can contact us through the helpline feature of application.</string>
+</resources>

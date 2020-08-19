@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/whitepanel1"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="10dp"
+    android:orientation="vertical">
+
+
+
+        <ImageButton
+            android:id="@+id/btn_close"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/transparent"
+
+            android:padding="8dp"
+            android:src="@drawable/ic_close_black_24dp"
+            android:textColor="#2196F3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.955"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:contentDescription="TODO" />
+
+        <com.varunest.sparkbutton.SparkButton
+            android:id="@+id/spark_button"
+            android:layout_width="0dp"
+            android:layout_height="180dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/spark_button1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:sparkbutton_animationSpeed="0.8"
+            android:onClick="o"
+            app:layout_constraintTop_toBottomOf="@+id/btn_close"
+            app:sparkbutton_activeImage="@drawable/aboutusactive"
+            app:sparkbutton_iconSize="130dp"
+            app:sparkbutton_inActiveImage="@drawable/aboutusinactive"
+            app:sparkbutton_primaryColor="@color/colorPrimary"
+            app:sparkbutton_secondaryColor="@color/colorPrimary" />
+
+        <com.varunest.sparkbutton.SparkButton
+            android:id="@+id/spark_button1"
+            android:layout_width="0dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/spark_button"
+            app:layout_constraintTop_toBottomOf="@+id/btn_close"
+            app:sparkbutton_activeImage="@drawable/helplineactive"
+            app:sparkbutton_iconSize="130dp"
+            app:sparkbutton_animationSpeed="0.8"
+            app:sparkbutton_inActiveImage="@drawable/helpineinactive"
+            app:sparkbutton_primaryColor="@color/colorPrimary"
+            app:sparkbutton_secondaryColor="@color/colorPrimary" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/logo11"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spark_button">
+
+                <com.suke.widget.SwitchButton
+                    android:id="@+id/switchButton"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="36dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toStartOf="@+id/textView15"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:sb_background="#FFFFFF"
+                    app:sb_button_color="#FFFFFF"
+                    app:sb_checked_color="@color/colorPrimary"
+                    app:sb_checkline_color="#a5dc88"
+                    app:sb_shadow_color="#717171"
+                    app:sb_uncheckcircle_color="@color/colorPrimary" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="32dp"
+                    android:fontFamily="@font/titillium"
+                    android:text="Subscribe to our Newsletter"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    app:layout_constraintBottom_toBottomOf="@+id/switchButton"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.717"
+                    app:layout_constraintStart_toEndOf="@+id/switchButton"
+                    app:layout_constraintTop_toTopOf="@+id/switchButton" />
+
+                <com.suke.widget.SwitchButton
+                    android:id="@+id/switchButton2"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="36dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="8dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/terms"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/switchButton"
+                    app:sb_background="#FFFFFF"
+                    app:sb_button_color="#FFFFFF"
+                    app:sb_checked_color="@color/colorPrimary"
+                    app:sb_checkline_color="#a5dc88"
+                    app:sb_shadow_color="#717171"
+                    app:sb_uncheckcircle_color="@color/colorPrimary" />
+
+                <TextView
+                    android:id="@+id/terms"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="32dp"
+                    android:fontFamily="@font/titillium"
+                    android:text="Accept our terms and conditions"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    app:layout_constraintBottom_toBottomOf="@+id/switchButton2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/switchButton2"
+                    app:layout_constraintTop_toTopOf="@+id/switchButton2" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <com.varunest.sparkbutton.SparkButton
+            android:id="@+id/logo11"
+            android:layout_width="0dp"
+            android:layout_height="180dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout2"
+            app:sparkbutton_activeImage="@drawable/dietn1"
+            app:sparkbutton_animationSpeed="0.8"
+            app:sparkbutton_iconSize="250dp"
+            app:sparkbutton_inActiveImage="@drawable/dietn"
+            app:sparkbutton_primaryColor="@color/colorPrimary"
+            app:sparkbutton_secondaryColor="@color/colorPrimary" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+

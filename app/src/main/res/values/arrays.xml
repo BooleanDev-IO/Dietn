@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="units">
+        <item>Kg</item>
+        <item>Lbs</item>
+        <item>pound</item>
+    </string-array>
+    <string-array name="Heightfeet">
+        <item>4.0</item>
+        <item>4.1</item>
+        <item>4.2</item>
+        <item>4.3</item>
+        <item>4.4</item>
+        <item>4.5</item>
+        <item>4.6</item>
+        <item>4.7</item>
+        <item>4.8</item>
+        <item>4.9</item>
+        <item>4.10</item>
+        <item>4.11</item>
+        <item>5.0</item>
+        <item>5.1</item>
+        <item>5.2</item>
+        <item>5.3</item>
+        <item>5.4</item>
+        <item>5.5</item>
+        <item>5.6</item>
+        <item>5.7</item>
+        <item>5.8</item>
+        <item>5.9</item>
+        <item>5.10</item>
+        <item>5.11</item>
+        <item>6.0</item>
+        <item>6.1</item>
+        <item>6.2</item>
+        <item>6.3</item>
+        <item>6.4</item>
+        <item>6.5</item>
+        <item>6.6</item>
+        <item>6.7</item>
+        <item>6.8</item>
+        <item>6.9</item>
+        <item>6.10</item>
+        <item>6.11</item>
+        <item>7.0</item>
+        <item>7.1</item>
+        <item>7.2</item>
+        <item>7.3</item>
+        <item>7.4</item>
+        <item>7.5</item>
+        <item>7.6</item>
+        <item>7.7</item>
+        <item>7.8</item>
+        <item>7.9</item>
+        <item>7.10</item>
+        <item>7.11</item>
+    </string-array>
+
+    <array name="icons">
+        <item>@drawable/breakfast</item>
+        <item>@drawable/lunch</item>
+        <item>@drawable/snack</item>
+        <item>@drawable/dinner</item>
+        <item>@drawable/exercise</item>
+
+    </array>
+    <array name="colors">
+        <item>#FFCA28</item>
+        <item>#FB95B8</item>
+        <item>#26C5DA</item>
+        <item>@color/green_active</item>
+        <item>@color/colorAccent</item>
+    </array>
+    <array name="breakfast">
+        <item>- -Click here to select- -</item>
+        <item>- - - - - - - - - -Veg- - - - - - - - - -</item>
+        <item>Cucumber Detox Water  7:00 am, 1 spoon</item>
+        <item>Mixed Nuts  8:00 am, 25 gm</item>
+        <item>Mixed Vegetable Salad  8:50pm, 1 small bowl</item>
+        <item>Egg white  8:00am, 4 eggs</item>
+        <item>Egg yolk  8:00am, 2 egg yolk</item>
+        <item>Honey  8:00am, 1 spoon</item>
+        <item>Oats  11:00am, 100-120gm</item>
+        <item>4 Roti or 1 bowl Brown rice   11:00am</item>
+        <item>Low fat paneer   11:00am, 70 gm</item>
+        <item>Multivitamin  11:30am, 1 pill</item>
+        <item>Banana  11:30am, 1 pieces</item>
+        <item>- - - - - - - -Non-Veg- - - - - - - -</item>
+        <item>bacon with omlet  8:00am, 2eggs</item>
+        <item>chicken salad  8:00am, 1 plate</item>
+        <item>Gram chicken breast   11:00am, 100 gm</item>
+        <item>Mixed Chicken Salad  11:00am, 1 small bowl</item>
+        <item>4 Roti or 1 bowl Chicken rice   11:00am</item>
+    </array>
+    <array name="lunch">
+        <item>- -Click here to select- -</item>
+        <item>- - - - - - - - - -Veg- - - - - - - - - -</item>
+        <item>Banana  2:00pm, 1 piece</item>
+        <item>Brown Rice  2:00pm 1 small bowl</item>
+        <item>Multivitamin  2:00pm, 1 pill</item>
+        <item>Oats with cinnamon  2:00pm. 70-90gm</item>
+        <item>Peanut butter  2:00pm, 1 table spoon</item>
+        <item>Dal  2:30 pm, 1 small bowl </item>
+        <item>Roti/sabzi  2:30pm, 2 roti/1 bowl</item>
+        <item>Cut Fruits  4:00 pm, 1 cup</item>
+        <item>Buttermilk  4:00 pm, 1 glass</item>
+        <item>Roti or Chapati  4:00pm, 1 plater</item>
+        <item>Tofu  4:00pm, 70gm</item>
+        <item>Veggies and Boiled Salad  4:00pm, 1 plate</item>
+        <item>- - - - - - - -Non-Veg- - - - - - - -</item>
+        <item>Roti  with a chicken wings  2:00pm, 2 roti</item>
+        <item>Chiken salad 2:00pm, 2 plates </item>
+        <item>Roasted chicken breast  2:30 pm, 125gm </item>
+        <item>Roti/chicken wing  2:30pm, 2 roti/1 bowl</item>
+        <item>- - - - - - - - - -Protein- - - - - - - - - -</item>
+        <item>Protein shake whey isopure  4:00pm, 1 tumbler</item>
+        <item>Muscle gain shake  4:00pm, 1 tumbler</item>
+    </array>
+    <array name="snack">
+        <item>- -Click here to select--</item>
+        <item>- - - - - - -Beverage- - - - - - -</item>
+        <item>Black coffee without sugar  6:00pm, 1 cup</item>
+        <item>- - - - - - - -Non-Veg- - - - - - - -</item>
+        <item>chicken salad with seekh  6:00pm, 1 plate</item>
+
+    </array>
+    <array name="dinner">
+        <item>- -Click here to select- -</item>
+        <item>- - - - - - - - - -Veg- - - - - - - - - -</item>
+        <item>Indian plater with brown rice  8:00pm</item>
+        <item>Paneer low fat  8:00pm, 100gm</item>
+        <item>Egg whites  8:00pm, 5 eggs</item>
+        <item>Veggie Salad  8:00pm, 1 plate</item>
+        <item>- - - - - - - -Non-Veg- - - - - - - -</item>
+        <item>Roti with chicken curry  8:00pm, 4 roti</item>
+        <item>Chicken ceaser salad  8:00pm, 1 plate</item>
+        <item>Chicken plater with brown rice  8:00pm</item>
+        <item>Chicken breast  8:00pm, 1 plate</item>
+
+
+    </array>
+    <array name="exercise">
+        <item>Lunges</item>
+        <item>Pushups</item>
+        <item>Squats</item>
+        <item>Standing overhead dumbbell presses</item>
+        <item>Dumbbell rows</item>
+        <item>Single-leg deadlifts</item>
+        <item>Burpees</item>
+        <item>Side planks</item>
+        <item>Situps</item>
+        <item>Glute bridge</item>
+        <item>Front Plank</item>
+        <item>Contralateral Limb Raises</item>
+        <item>Standing Calf Raises - Wall</item>
+    </array>
+    <array name="setting">
+        <item>Select the color mode</item>
+    <item>Dark Mode</item>
+        <item>Light mode</item>  </array>
+    <array name="bodytype">
+        <item>Select Body type</item>
+        <item>Thin</item>
+        <item>Normal</item>
+        <item>Fat</item>
+    </array>
+    <!--Veg Diet for normal body type to maintain weight-->
+    <array name="dietbrkN">
+        <item>Egg white  8:00am, 4 eggs</item>
+        <item>Egg yolk  8:00am, 2 egg yolk</item>
+        <item>Honey  8:00am, 1 spoon</item>
+        <item>Oats  11:00am, 100-120gm</item>
+    </array>
+    <array name="dietlunN">
+        <item>Banana  2:00pm, 1 piece</item>
+        <item>Brown Rice  2:00pm 1 small bowl</item>
+        <item>Multivitamin  2:00pm, 1 pill</item>
+        <item>Oats with cinnamon  2:00pm. 70-90gm</item>
+        <item>Peanut butter  2:00pm, 1 table spoon</item>
+        <item>Roti or Chapati  4:00pm, 1 plater</item>
+        <item>Tofu  4:00pm, 70gm</item>
+        <item>Veggies and Boiled Salad  4:00pm, 1 plate</item>
+        <item>Protein shake whey isopure  4:00pm, 1 tumbler</item>
+    </array>
+    <array name="dietsnkN">
+        <item>Black coffee without sugar  6:00pm, 1 cup</item>
+    </array>
+    <array name="dietdnrN">
+        <item>Indian plater with brown rice  8:00pm, 4 roti with 100gm rice</item>
+        <item>Paneer low fat  8:00pm, 100gm</item>
+        <item>Veggie Salad  8:00pm, 1 plate</item>
+    </array>
+    <!--non/Veg Diet for normal body type to maintain weight-->
+    <array name="dietbrkNon">
+        <item>bacon with omlet  8:00am, 2eggs</item>
+        <item>chicken salad  8:00am, 1 plate</item>
+        <item>Honey  8:00am, 1 spoon</item>
+        <item>Oats  11:00am, 80-100gm</item>
+    </array>
+    <array name="dietlunNon">
+        <item>Banana  2:00pm, 1 piece</item>
+        <item>Roti  with a chicken wings  2:00pm, 2 roti</item>
+        <item>Multivitamin  2:00pm, 1 pill</item>
+        <item>Protein shake whey isopure  4:00pm, 1 tumbler</item>
+        <item>Peanut butter  4:00pm, 1 tablespoon</item>
+    </array>
+    <array name="dietsnkNon">
+        <item>chicken salad with seekh  6:00pm, 1 plate</item>
+    </array>
+    <array name="dietdnrNon">
+        <item>Roti with chicken curry  8:00pm, 4 roti</item>
+        <item>Chicken ceaser salad  8:00pm, 1 plate</item>
+    </array>
+    <!--Veg Diet for normal body type to gain weight-->
+    <array name="mslgbrkV">
+        <item>Oats    8:00am,80-100 gram</item>
+        <item>Honey   8:00am,1 spoon</item>
+        <item>Egg white   8:00am, 5 eggs, 1 yolk</item>
+        <item>4 Roti or 1 bowl Brown rice   11:00am</item>
+        <item>Low fat paneer   11:00am, 70 gm</item>
+    </array>
+    <array name="mslglunV">
+        <item>Veggies boiled  2:00pm, 2 plates </item>
+        <item>Multivitamin  2:00pm, 1 pill</item>
+        <item>Muscle gain shake  4:00pm, 1 tumbler</item>
+        <item>Oats with cinnamon  4:00pm, 50gm</item>
+        <item>Banana  4:00pm, 2 pieces</item>
+        <item>Peanut butter  4:00pm, 1 tablespoon</item>
+        </array>
+    <array name="mslgsnkV">
+        <item>Black coffee without sugar  6:00pm, 1 cup</item>
+    </array>
+    <array name="mslgdnrv">
+        <item>Indian plater with brown rice  8:00pm</item>
+        <item>Egg whites  8:00pm, 5 eggs</item>
+        <item>Veggie Salad  8:00pm, 1 plate</item>
+        <item>Paneer Low fat  30mins before sleep, 100gm</item>
+    </array>
+
+    <!--Non Veg Diet for normal body type to gain weight-->
+    <array name="mslgbrkN">
+        <item>Oats    8:00am,80-100 gram</item>
+        <item>Honey   8:00am,1 spoon</item>
+        <item>Egg white   8:00am, 5 eggs, 1 yolk</item>
+        <item>4 Roti or 1 bowl Chicken rice   11:00am</item>
+        <item>Gram chicken breast   11:00am, 100 gm</item>
+    </array>
+    <array name="mslglunN">
+        <item>Chiken salad 2:00pm, 2 plates </item>
+        <item>Multivitamin  2:00pm, 1 pill</item>
+        <item>Muscle gain shake  4:00pm, 1 tumbler</item>
+        <item>Oats with cinnamon  4:00pm, 50gm</item>
+        <item>Banana  4:00pm, 2 pieces</item>
+        <item>Peanut butter  4:00pm, 1 tablespoon</item>
+    </array>
+    <array name="mslgsnkN">
+        <item>Black coffee without sugar  6:00pm, 1 cup</item>
+    </array>
+    <array name="mslgdnrN">
+        <item>Chicken plater with brown rice  8:00pm</item>
+        <item>Egg whites  8:00pm, 5 eggs</item>
+        <item>Chicken breast  8:00pm, 1 plate</item>
+        <item>Paneer Low fat  30mins before sleep, 100gm</item>
+    </array>
+
+    <!--Veg Diet for fat body type to lose weight-->
+    <array name="flbrkV">
+        <item>Cucumber Detox Water  7:00 am, 1 spoon</item>
+        <item>Mixed Nuts  8:00 am, 25 gm</item>
+        <item>Honey   8:00am,1 spoon</item>
+        <item>Mixed Vegetable Salad  8:50pm, 1 small bowl</item>
+        <item>Multivitamin  11:30am, 1 pill</item>
+        <item>Banana  11:30am, 1 pieces</item>
+        <item>Egg white   11:30am, 3 eggs</item>
+    </array>
+    <array name="fllunV">
+        <item>Dal  2:30 pm, 1 small bowl </item>
+        <item>Roti/sabzi  2:30pm, 2 roti/1 bowl</item>
+        <item>Cut Fruits  4:00 pm, 1 cup</item>
+        <item>Buttermilk  4:00 pm, 1 glass</item>
+    </array>
+    <array name="flsnkV">
+        <item>Black coffee without sugar  6:00pm, 1 cup</item>
+    </array>
+    <array name="fldnrV">
+        <item>Indian plater with brown rice  8:00pm</item>
+        <item>Egg whites  8:50pm, 3 eggs</item>
+        <item>Paneer Low fat  30mins before sleep, 100gm</item>
+    </array>
+
+    <!--Non-Veg Diet for fat body type to lose weight-->
+    <array name="flbrkN">
+        <item>Cucumber Detox Water  7:00 am, 1 spoon</item>
+        <item>Mixed Nuts  8:00 am, 25 gm</item>
+        <item>Honey   8:00am,1 spoon</item>
+        <item>Mixed Chicken Salad  8:50pm, 1 small bowl</item>
+        <item>Multivitamin  11:30am, 1 pill</item>
+        <item>Banana  11:30am, 1 pieces</item>
+        <item>Egg white   11:30am, 3 eggs</item>
+    </array>
+    <array name="fllunN">
+        <item>Roasted chicken breast  2:30 pm, 125gm </item>
+        <item>Roti/chicken wing  2:30pm, 2 roti/1 bowl</item>
+        <item>Cut Fruits  4:00 pm, 1 cup</item>
+        <item>Buttermilk  4:00 pm, 1 glass</item>
+    </array>
+    <array name="flsnkN">
+        <item>Black coffee without sugar  6:00pm, 1 cup</item>
+    </array>
+    <array name="fldnrN">
+        <item>Chicken breast  8:00pm, 1 plate</item>
+        <item>Chicken plater with brown rice  8:00pm</item>
+        <item>Egg whites  8:50pm, 3 eggs</item>
+
+    </array>
+
+
+
+
+
+</resources>

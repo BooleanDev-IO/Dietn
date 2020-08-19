@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/whitepanel1"
+    android:elevation="10dp"
+    android:orientation="vertical">
+
+
+    <ImageButton
+        android:id="@+id/btn_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/todo"
+        android:padding="8dp"
+        android:src="@drawable/ic_close_black_24dp"
+
+        android:textColor="#2196F3"
+        android:tint="#005A23"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/btn_close">
+
+        <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:mcv_calendarMode="week"
+            app:mcv_selectionMode="single"
+            app:mcv_dateTextAppearance="@font/titillium"
+            app:mcv_selectionColor="@color/colorPrimary"
+            app:mcv_showOtherDates="defaults" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginVertical="15dp"
+            android:background="@drawable/roundy"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/head"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/electromagnetic_lungs"
+                android:text="Diet chart for today"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/brkdiet"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/head"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/brkicon"
+                android:contentDescription="breakfast" />
+            <ImageButton
+                android:id="@+id/lunchdiet"
+                android:layout_toEndOf="@id/brkdiet"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/head"
+                android:layout_marginTop="10dp"
+
+                android:layout_marginStart="2dp"
+                android:background="@drawable/lnchicon"
+
+                android:contentDescription="breakfast" />
+            <ImageButton
+                android:id="@+id/evediet"
+                android:layout_toEndOf="@id/lunchdiet"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/head"
+                android:layout_marginTop="10dp"
+
+                android:background="@drawable/eveicon"
+                android:layout_marginStart="2dp"
+                android:contentDescription="breakfast" />
+            <ImageButton
+                android:id="@+id/dnrdiet"
+                android:layout_toEndOf="@id/evediet"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/head"
+                android:layout_marginTop="10dp"
+
+                android:background="@drawable/dnricon"
+                android:layout_marginStart="2dp"
+                android:contentDescription="breakfast" />
+            <com.nightonke.jellytogglebutton.JellyToggleButton
+                android:id="@+id/jtb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginEnd="10dp"
+                android:elevation="3dp"
+                android:shadowColor="#323232"
+                app:jtbBackgroundRadius="18dp"
+                app:jtbJelly="active_tremble_body_fatty"
+                app:jtbLeftBackgroundColor="#12BD81"
+                app:jtbLeftText="Non-Veg"
+                app:jtbLeftTextColor="#fff"
+                app:jtbLeftTextSize="10sp"
+                app:jtbRightBackgroundColor="#8E0000"
+                app:jtbRightText="Veg"
+                app:jtbRightTextColor="#fff"
+                app:jtbRightTextSize="10sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/headingfordiet"
+            android:fontFamily="@font/electromagnetic_lungs"
+            android:text="Breakfast"
+            android:textColor="#0A573C"
+            android:textSize="20sp" />
+
+        <ListView
+            android:id="@+id/listchart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/roundy" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

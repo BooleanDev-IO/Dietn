@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".dashboard">
+
+
+    <com.github.florent37.shapeofview.shapes.ArcView
+        android:id="@+id/diagonalLayout"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:elevation="10dip"
+        app:shape_arc_height="50dp"
+        app:shape_arc_position="bottom">
+
+        <com.flaviofaria.kenburnsview.KenBurnsView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dashbackshadow" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/dashmenubtns"
+                android:layout_width="match_parent"
+                android:layout_height="110dp">
+
+                <com.gauravk.bubblenavigation.BubbleNavigationLinearView
+                    android:id="@+id/top_navigation_constraint"
+                    android:layout_width="190dp"
+                    android:layout_height="65dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/dashbar"
+                    android:elevation="4dp"
+                    android:gravity="center_horizontal"
+                    app:bnc_mode="spread">
+
+                    <com.gauravk.bubblenavigation.BubbleToggleView
+                        android:id="@+id/homekey"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        app:bt_colorActive="@color/blue_active"
+                        app:bt_colorInactive="@color/blue_inactive"
+                        app:bt_icon="@drawable/ic_home_black_24dp"
+                        app:bt_padding="5dp"
+
+                        app:bt_title="Home"
+                        app:bt_titlePadding="5dp" />
+
+                    <com.gauravk.bubblenavigation.BubbleToggleView
+                        android:id="@+id/myprofilekey"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:bt_colorActive="@color/blue_active"
+                        app:bt_colorInactive="@color/blue_inactive"
+                        app:bt_icon="@drawable/proff"
+                        app:bt_padding="5dp"
+                        app:bt_title="My Profile"
+                        app:bt_titlePadding="5dp" />
+
+                    <com.gauravk.bubblenavigation.BubbleToggleView
+                        android:id="@+id/plankey"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:bt_colorActive="@color/blue_active"
+                        app:bt_colorInactive="@color/blue_inactive"
+                        app:bt_icon="@drawable/plan"
+                        app:bt_padding="5dp"
+                        app:bt_title="Plans"
+                        app:bt_titlePadding="5dp" />
+                    <!-- Add more child items here - max upto 5 -->
+
+                </com.gauravk.bubblenavigation.BubbleNavigationLinearView>
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/fabaaaa"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:backgroundTint="#FFFFFF"
+                    android:elevation="10dip"
+                    android:src="@drawable/menu"
+                    app:backgroundTint="#FFFFFF"
+                    app:borderWidth="0dp"
+                    app:fabCustomSize="50dp"
+                    app:fabSize="auto"
+                    app:maxImageSize="24dp" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/signout"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:backgroundTint="#FFFFFF"
+                    android:elevation="10dip"
+                    android:src="@drawable/signout"
+                    app:backgroundTint="#FFFFFF"
+                    app:borderWidth="0dp"
+                    app:fabCustomSize="50dp"
+                    app:fabSize="auto"
+                    app:maxImageSize="24dp" />
+
+            </RelativeLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/dashboardcontext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dashmenubtns"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+
+                android:layout_alignParentBottom="true">
+
+                <com.mikhaellopez.circularprogressbar.CircularProgressBar
+                    android:id="@+id/circularProgressBar"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginBottom="32dp"
+                    app:cpb_background_progressbar_color="#6CD5D5D5"
+                    app:cpb_background_progressbar_width="5dp"
+                    app:cpb_progress_direction="to_right"
+                    app:cpb_progressbar_color="#FFFFFF"
+                    app:cpb_progressbar_width="5dp"
+                    app:cpb_round_border="false"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/circularProgressBar2"
+                    app:layout_constraintStart_toEndOf="@+id/circularProgressBar1"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <com.mikhaellopez.circularprogressbar.CircularProgressBar
+                    android:id="@+id/circularProgressBar1"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="70dp"
+                    app:cpb_background_progressbar_color="#6CD5D5D5"
+                    app:cpb_background_progressbar_width="5dp"
+                    app:cpb_progress_direction="to_right"
+                    app:cpb_progressbar_color="#FFFFFF"
+                    app:cpb_progressbar_width="5dp"
+                    app:cpb_round_border="false"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/circularProgressBar"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <com.mikhaellopez.circularprogressbar.CircularProgressBar
+                    android:id="@+id/circularProgressBar2"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="70dp"
+                    app:cpb_background_progressbar_color="#6CD5D5D5"
+                    app:cpb_background_progressbar_width="5dp"
+                    app:cpb_progress_direction="to_right"
+                    app:cpb_progressbar_color="#FFFFFF"
+                    app:cpb_progressbar_width="5dp"
+                    app:cpb_round_border="false"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/circularProgressBar"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:fontFamily="@font/titillium"
+                    android:textAlignment="center"
+
+                    android:gravity="center"
+                    android:text="kcal left"
+                    app:layout_constraintBottom_toBottomOf="@+id/circularProgressBar"
+                    app:layout_constraintEnd_toEndOf="@+id/circularProgressBar"
+                    app:layout_constraintStart_toStartOf="@+id/circularProgressBar"
+                    app:layout_constraintTop_toTopOf="@+id/circularProgressBar" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/titillium"
+                    android:gravity="center"
+                    android:text="Protein"
+                    android:textAlignment="center"
+                    app:layout_constraintBottom_toBottomOf="@+id/circularProgressBar1"
+                    app:layout_constraintEnd_toEndOf="@+id/circularProgressBar1"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="@+id/circularProgressBar1"
+                    app:layout_constraintTop_toTopOf="@+id/circularProgressBar1" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/titillium"
+
+                    android:gravity="center"
+                    android:text="kl Burn"
+                    android:textAlignment="center"
+                    app:layout_constraintBottom_toBottomOf="@+id/circularProgressBar2"
+                    app:layout_constraintEnd_toEndOf="@+id/circularProgressBar2"
+                    app:layout_constraintStart_toStartOf="@+id/circularProgressBar2"
+                    app:layout_constraintTop_toTopOf="@+id/circularProgressBar2" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </RelativeLayout>
+    </com.github.florent37.shapeofview.shapes.ArcView>
+
+
+    <FrameLayout
+        android:id="@+id/VIEWPGR"
+        android:layout_width="match_parent"
+        android:layout_height="542dp"
+        android:layout_below="@+id/diagonalLayout"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-56dp"
+        />
+</RelativeLayout>

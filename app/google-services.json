@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1803617679",
+    "firebase_url": "https://dietn-207ce.firebaseio.com",
+    "project_id": "dietn-207ce",
+    "storage_bucket": "dietn-207ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1803617679:android:5995f4559f804fe5c337fa",
+        "android_client_info": {
+          "package_name": "booleandevops.io.dietn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1803617679-0ps5p23bicviq2611jnlfn0ohtfstku8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "booleandevops.io.dietn",
+            "certificate_hash": "e24bd68b4fc81b37611b585aaaf8ec95a6b4fbb6"
+          }
+        },
+        {
+          "client_id": "1803617679-899hjogilan6af64pudta1a3f1qe4evk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTXpEnnXGm6gB5wB08naYUPUybKEi6qi8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1803617679-899hjogilan6af64pudta1a3f1qe4evk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

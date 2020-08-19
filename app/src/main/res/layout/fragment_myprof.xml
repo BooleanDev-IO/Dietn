@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    android:maxWidth="450dp"
+    tools:context=".myprof">
+
+    <ScrollView
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:id="@+id/accountpic"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="56dp"
+                android:layout_marginEnd="245dp"
+                app:civ_border="true"
+                app:civ_border_color="@color/colorPrimaryDark"
+                app:civ_border_width="3dp"
+
+                app:civ_shadow="true"
+                app:civ_shadow_color="@color/colorPrimaryDark"
+                app:layout_constraintBottom_toTopOf="@+id/proffoptions"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/avatarrr" />
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:elevation="5dp"
+                android:gravity="right"
+                android:orientation="vertical"
+                android:paddingHorizontal="15dp"
+                android:paddingVertical="20dp"
+                app:layout_constraintBottom_toBottomOf="@+id/accountpic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/accountpic"
+                app:layout_constraintVertical_bias="0.51">
+
+                <TextView
+                    android:id="@+id/username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="15dp"
+                    android:fontFamily="@font/titillium"
+                    android:text="UserName"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/username"
+                    android:layout_marginEnd="15dp"
+                android:id="@+id/membersince"
+                    android:layout_toRightOf="@+id/accountpic"
+                    android:fontFamily="@font/titillium"
+
+                    android:text="Member scince XXXX"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="10sp" />
+
+                <Button
+                    android:id="@+id/upgrade"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@drawable/roundy"
+                    android:fontFamily="@font/electromagnetic_lungs"
+                    android:text="Upgrade"
+                    android:textAllCaps="false"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/proffoptions"
+                android:layout_width="0dp"
+                android:layout_height="110dp"
+                android:layout_below="@+id/accountpic"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/whitepanel"
+                android:elevation="5dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/accountpic">
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/bmi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:backgroundTint="@color/colorPrimaryDark"
+                    android:src="@drawable/bmi"
+                    app:elevation="3dp"
+                    app:fabCustomSize="70dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/schedule"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:maxImageSize="40dp" />
+
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/schedule"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="@android:color/transparent"
+
+                    android:backgroundTint="@color/colorPrimaryDark"
+                    android:src="@drawable/planprof"
+                    android:tint="#fff"
+                    app:elevation="3dp"
+                    app:fabCustomSize="70dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/settings"
+                    app:layout_constraintStart_toEndOf="@+id/bmi"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:maxImageSize="40dp" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/settings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="16dp"
+
+                    android:background="@android:color/transparent"
+                    android:backgroundTint="@color/colorPrimaryDark"
+                    android:src="@drawable/ic_settings_black_24dp"
+                    android:tint="#fff"
+                    app:elevation="3dp"
+                    app:fabCustomSize="70dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/schedule"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:maxImageSize="40dp" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <LinearLayout
+                android:id="@+id/daily"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_below="@id/proffoptions"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/whitepanel"
+                android:elevation="5dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/proffoptions">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/titillium"
+                    android:text="Daily Progress"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="18sp" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="25dp"
+
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/whitepanel"
+                    android:elevation="5dp">
+
+                    <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:elevation="5dp"
+                        app:rcBackgroundColor="@color/colorPrimary"
+                        app:rcBackgroundPadding="0dp"
+                        app:rcMax="100"
+                        app:rcProgress="80"
+                        app:rcProgressColor="@color/white"
+                        app:rcRadius="20dp" />
+                </RelativeLayout>
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</RelativeLayout>
